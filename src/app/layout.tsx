@@ -1,4 +1,4 @@
-import "@pigment-css/react/styles.css";
+import "@mui/material-pigment-css/styles.css";
 
 const RootLayout = async ({
   children,
