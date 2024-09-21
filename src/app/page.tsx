@@ -1,9 +1,9 @@
 import { Button } from "@mui/material";
-import { styled } from "@pigment-css/react";
+import { styled } from "@mui/material-pigment-css";
 
 const Heading = styled("h1")(({ theme }) => ({
-  color: theme.colors.primary,
-  fontSize: theme.spacing.unit * 4,
+  color: theme.palette.primary.main,
+  fontSize: theme.spacing(4),
   fontFamily: theme.typography.fontFamily,
 }));
 
