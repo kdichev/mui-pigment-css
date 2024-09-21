@@ -1,3 +1,5 @@
+import "@pigment-css/react/styles.css";
+
 const RootLayout = async ({
   children,
 }: Readonly<{
